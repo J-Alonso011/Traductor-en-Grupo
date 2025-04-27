@@ -1,6 +1,10 @@
 #include <iostream>
+#include "Jonathan/codigoJalonso.cpp"
 using namespace std;
+	
+	
 
+void cargarDiccionario();
 
 void menu(){
 	int opcion;
@@ -28,6 +32,7 @@ void menu(){
 }
 
 int main(){
+	cargarDiccionario();
 	 menu();
 	return 0;
 	}
