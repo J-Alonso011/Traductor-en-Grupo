@@ -1,0 +1,183 @@
+asm
+ensamblador
+Permite insertar instrucciones en ensamblador.
+auto
+automatico
+Define el tipo de variable automáticamente o duración automática.
+bool
+booleano
+Tipo de dato que puede ser verdadero o falso.
+break
+romper
+Termina un ciclo o un bloque de instrucciones.
+case
+caso
+Parte de una estructura switch para evaluar valores.
+catch
+capturar
+Captura excepciones en manejo de errores.
+char
+caracter
+Tipo de dato que almacena un solo caracter.
+class
+clase
+Define una estructura de objetos (POO).
+const
+constante
+Declara un valor que no puede ser modificado.
+const_cast
+conversion_const
+Permite quitar el modificador const de una variable.
+continue
+continuar
+Salta el resto del ciclo y continua con la siguiente iteracion.
+default
+defecto
+Define el caso por defecto en una estructura switch.
+delete
+eliminar
+Libera memoria reservada dinámicamente.
+do
+hacer
+Estructura de control que ejecuta un ciclo primero y luego evalua.
+double
+doble
+Tipo de dato para numeros decimales de doble precision.
+dynamic_cast
+conversion_dinamica
+Conversion segura entre clases relacionadas.
+else
+entonces
+Parte alternativa de una estructura if.
+enum
+enumeracion
+Tipo de dato que representa constantes numericas nombradas.
+explicit
+explicito
+Previene conversiones implicitas en constructores.
+extern
+externo
+Declara que una variable o funcion esta definida en otro archivo.
+false
+falso
+Valor logico que representa "no verdadero".
+float
+flotante
+Tipo de dato para numeros decimales de precision simple.
+for
+para
+Estructura de control que repite un bloque de codigo.
+friend
+amigo
+Permite acceso a miembros privados/protegidos de una clase.
+goto
+ir_a
+Salta directamente a otra parte del codigo (no recomendado).
+if
+si
+Estructura de control para evaluar una condicion.
+inline
+en_linea
+Sugiere al compilador insertar el codigo de una funcion donde se llama.
+int
+entero
+Tipo de dato para numeros enteros.
+long
+largo
+Tipo de dato para numeros enteros de mayor tamaño.
+mutable
+mutable
+Permite modificar variables dentro de funciones const.
+namespace
+espacio_nombres
+Agrupa identificadores bajo un nombre comun para evitar conflictos.
+new
+nuevo
+Reserva memoria dinamicamente.
+operator
+operador
+Permite definir operaciones personalizadas en clases.
+private
+privado
+Miembros de una clase accesibles solo dentro de la misma clase.
+protected
+protegido
+Miembros accesibles solo dentro de la clase y sus derivadas.
+public
+publico
+Miembros accesibles desde cualquier parte.
+register
+registro
+Sugiere que una variable sea almacenada en un registro de CPU.
+reinterpret_cast
+reinterpretar
+Convierte un puntero de un tipo a otro sin cambiar bits.
+return
+retorno
+Finaliza una funcion y opcionalmente devuelve un valor.
+short
+corto
+Tipo de dato para numeros enteros de menor tamaño.
+signed
+con_signo
+Declara numeros que pueden ser positivos o negativos.
+sizeof
+tamano
+Operador que devuelve el tamaño en bytes de un tipo de dato o variable.
+static
+estatico
+Define duracion estatica o limite de acceso en funciones y variables.
+static_cast
+conversion_estatica
+Conversion segura entre tipos relacionados.
+struct
+estructura
+Agrupa variables bajo un mismo tipo de dato.
+switch
+conmutador
+Estructura de control que selecciona entre multiples opciones.
+template
+plantilla
+Permite escribir codigo generico que funciona con diferentes tipos.
+this
+este
+Puntero que refiere al objeto actual en una clase.
+throw
+lanzar
+Lanza una excepcion en el manejo de errores.
+true
+verdadero
+Valor logico que representa "verdadero".
+try
+intentar
+Define un bloque de codigo para probar manejo de errores.
+typedef
+alias_tipo
+Crea un nombre alternativo para un tipo de dato.
+typeid
+tipoid
+Obtiene informacion sobre el tipo de una variable en tiempo de ejecucion.
+typename
+nombre_tipo
+Se usa en plantillas para declarar un tipo de dato.
+union
+union
+Permite almacenar diferentes tipos de datos en la misma direccion de memoria.
+unsigned
+sin_signo
+Declara numeros que solo pueden ser positivos.
+using
+usando
+Introduce nombres de espacios de nombre o alias de tipo.
+virtual
+virtual
+Permite sobreescritura de metodos en clases derivadas.
+void
+vacio
+Indica que una funcion no devuelve valor.
+volatile
+volatil
+Indica que una variable puede ser modificada externamente en cualquier momento.
+while
+mientras
+Estructura de control que repite un bloque de codigo mientras se cumpla una condicion.
