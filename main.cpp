@@ -1,8 +1,10 @@
 #include <iostream>
 #include "Jonathan/codigoJalonso.cpp"
+
 using namespace std;
 	
-
+void crearPalabra();
+void leerPalabras();
 void cargarDiccionario();
 
 void menu(){
@@ -19,8 +21,8 @@ void menu(){
         cin >> opcion;
 
         switch(opcion) {
-            case 1: 
-            case 2: 
+            case 1: crearPalabra(); break;
+            case 2: leerPalabras(); break;
             case 3: 
             case 4:	
             case 5: 
