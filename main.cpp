@@ -2,7 +2,6 @@
 #include "Jonathan/codigoJalonso.cpp"
 using namespace std;
 	
-	
 
 void cargarDiccionario();
 
@@ -23,7 +22,7 @@ void menu(){
             case 1: 
             case 2: 
             case 3: 
-            case 4: 
+            case 4:	
             case 5: 
             case 6: cout << "Saliendo..." << endl; break;
             default: cout << "Opcion invalida." << endl;
