@@ -1,9 +1,10 @@
+#include "estructura.h"
 #include <iostream>
 #include <string>
+#include <map> 
 
 using namespace std;
 
-extern map<string, Palabra> diccionario;
 void guardarDiccionario();
 
 void actualizarPalabra() {
@@ -17,7 +18,10 @@ void actualizarPalabra() {
         getline(cin, nuevaTraduccion);
         cout << "Nueva funcionalidad: ";
         getline(cin, nuevaFuncionalidad);
-        diccionario[palabra] = {nuevaTraduccion, nuevaFuncionalidad};
+        Palabra p;
+        p.traduccion = nuevaTraduccion;
+        p.funcionalidad = nuevaFuncionalidad;
+        diccionario[palabra] = p;
         guardarDiccionario();
     } else {
         cout << "Palabra no encontrada." << endl;
@@ -32,6 +36,6 @@ void borrarPalabra() {
         cout << "Palabra eliminada." << endl;
         guardarDiccionario();
     } else {
-        cout << "Palabra no encontrada." << endl;
-    }
+        cout<<"Palabra No entontrada."<< endl; 
+		 }
 }

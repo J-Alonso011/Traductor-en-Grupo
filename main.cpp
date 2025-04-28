@@ -1,10 +1,17 @@
+#include "estructura.h"
 #include <iostream>
 #include "Jonathan/codigoJalonso.cpp"
+#include "Joel/codigoJoel.cpp"
+#include "Escarlet/parte 2.cpp"
 
 using namespace std;
+
+extern map<string, Palabra> diccionario;
 	
 void crearPalabra();
 void leerPalabras();
+void actualizarPalabra();
+void borrarPalabra();
 void cargarDiccionario();
 
 void menu(){
@@ -23,8 +30,8 @@ void menu(){
         switch(opcion) {
             case 1: crearPalabra(); break;
             case 2: leerPalabras(); break;
-            case 3: 
-            case 4:	
+            case 3: actualizarPalabra(); break;
+            case 4:	borrarPalabra(); break;
             case 5: 
             case 6: cout << "Saliendo..." << endl; break;
             default: cout << "Opcion invalida." << endl;

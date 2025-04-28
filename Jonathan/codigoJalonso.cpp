@@ -1,14 +1,7 @@
 #include <fstream>
-#include <map>
+#include "estructura.h"
 #include <string>
 using namespace std;
-
-struct Palabra {
-    string traduccion;
-    string funcionalidad;
-};
-
-map<string, Palabra> diccionario;
 
 void cargarDiccionario() {
     ifstream archivo("diccionario.txt");

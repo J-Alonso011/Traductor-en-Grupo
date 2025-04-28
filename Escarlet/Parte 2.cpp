@@ -1,16 +1,8 @@
+#include "estructura.h"
 #include <iostream>
 #include <string>
 #include <map> 
 using namespace std;
-
-struct Palabra {
-    string traduccion;
-    string funcionalidad;
-};
-
-
-extern map<string, Palabra> diccionario;
-
 void guardarDiccionario();
 
 void crearPalabra() {
