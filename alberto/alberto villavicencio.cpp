@@ -1,10 +1,10 @@
+#include "estructura.h"
 #include <iostream>
 #include <sstream>
 #include <string>
-#include <map>
 using namespace std;
 
-extern map<string,Palabra> diccionario;
+
 
 void traducirCodigo() {
     cin.ignore();
@@ -21,9 +21,12 @@ void traducirCodigo() {
         istringstream palabras(linea);
         while (palabras >> palabra) {
             string limpio = "";
-            for (char c : palabra) {
-                if (isalnum(c) || c == '_') {
-                    limpio += c;
+             for (int i = 0; i < palabra.length(); i++) {
+                if ((palabra[i] >= 'a' && palabra[i] <= 'z') || 
+                    (palabra[i] >= 'A' && palabra[i] <= 'Z') || 
+                    (palabra[i] >= '0' && palabra[i] <= '9') || 
+                    palabra[i] == '_') {
+                    limpio += palabra[i];
                 }
             }
             if (diccionario.find(limpio) != diccionario.end()) {
@@ -40,7 +43,8 @@ void traducirCodigo() {
     stream.seekg(0, ios::beg);
 
     while (getline(stream, linea)) {
-        for (char c : linea) {
+        for (int i = 0; i < linea.length(); i++) {
+            char c = linea[i];
             if (c == '{') {
                 cout << "inicio ";
             } else if (c == '}') {

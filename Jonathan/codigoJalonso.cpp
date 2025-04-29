@@ -1,5 +1,5 @@
-#include <fstream>
 #include "estructura.h"
+#include <fstream>
 #include <string>
 using namespace std;
 
